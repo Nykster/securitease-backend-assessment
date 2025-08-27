@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/TopLevelElement"
+  },
+  "definitions": {
+    "TopLevelElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "#/definitions/Name"
+        },
+        "languages": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "languages",
+        "name"
+      ],
+      "title": "TopLevelElement"
+    },
+    "Name": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "common": {
+          "type": "string"
+        },
+        "official": {
+          "type": "string"
+        },
+        "nativeName": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/NativeName"
+          }
+        }
+      },
+      "required": [
+        "common",
+        "nativeName",
+        "official"
+      ],
+      "title": "Name"
+    },
+    "NativeName": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "official": {
+          "type": "string"
+        },
+        "common": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "common",
+        "official"
+      ],
+      "title": "NativeName"
+    }
+  }
+}
