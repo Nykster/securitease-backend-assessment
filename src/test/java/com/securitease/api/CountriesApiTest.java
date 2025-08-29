@@ -16,9 +16,7 @@ public class CountriesApiTest {
         RestAssured.baseURI = "https://restcountries.com/v3.1";
     }
 
-    /**
-     * Scenario 1: Validate that the API response conforms to the JSON schema.
-     */
+    // Scenario 1: Validate that the API response conforms to the JSON schema.
     @Test
     public void testApiResponseConformsToSchema() {
         given()
@@ -31,9 +29,7 @@ public class CountriesApiTest {
             .body(matchesJsonSchemaInClasspath("countries-schema.json"));
     }
 
-    /**
-     * Scenario 2: Confirm the total number of countries returned by the API.
-     */
+    //Scenario 2: Confirm the total number of countries returned by the API.
     @Test
     public void testTotalNumberOfCountries() {
         given()
@@ -45,10 +41,8 @@ public class CountriesApiTest {
             .statusCode(200)
             .body("size()", equalTo(250));
     }
-
-    /**
-     * Scenario 3: Validate that South African Sign Language is an official language of South Africa.
-     */
+    
+    //Scenario 3: Validate that South African Sign Language is an official language of South Africa.
     @Test
     public void testSouthAfricaIncludesSignLanguage() {
         given()
