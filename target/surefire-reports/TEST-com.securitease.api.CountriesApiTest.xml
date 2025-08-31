@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.securitease.api.CountriesApiTest" time="11.124" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.securitease.api.CountriesApiTest" time="10.742" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.28_6\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nykster!\AppData\Local\Temp\surefire2303227145335997633\surefirebooter1719130144174509607.jar C:\Users\Nykster!\AppData\Local\Temp\surefire2303227145335997633 2025-08-30T15-17-59_284-jvmRun1 surefire17072877735104160367tmp surefire_03609711516702062991tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nykster!\AppData\Local\Temp\surefire7275999622014262119\surefirebooter15527636128369242579.jar C:\Users\Nykster!\AppData\Local\Temp\surefire7275999622014262119 2025-08-31T10-11-50_738-jvmRun1 surefire6987550025811802545tmp surefire_0733529528536194142tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Nykster!\Documents\securitease-backend-assessment\target\test-classes;C:\Users\Nykster!\Documents\securitease-backend-assessment\target\classes;C:\maven-repo\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\maven-repo\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\maven-repo\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\maven-repo\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\maven-repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\maven-repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\maven-repo\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\maven-repo\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\maven-repo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\maven-repo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\maven-repo\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\maven-repo\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\maven-repo\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\maven-repo\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\maven-repo\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\maven-repo\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\maven-repo\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\maven-repo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\maven-repo\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\maven-repo\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\maven-repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\maven-repo\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\maven-repo\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\maven-repo\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\maven-repo\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\maven-repo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\maven-repo\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\maven-repo\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\maven-repo\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\maven-repo\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\maven-repo\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\maven-repo\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\maven-repo\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\maven-repo\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\maven-repo\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\maven-repo\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\maven-repo\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\maven-repo\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\maven-repo\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\maven-repo\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\maven-repo\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\maven-repo\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\maven-repo\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\maven-repo\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\maven-repo\io\qameta\allure\allure-junit5\2.21.0\allure-junit5-2.21.0.jar;C:\maven-repo\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\maven-repo\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\maven-repo\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\maven-repo\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\maven-repo\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\maven-repo\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\maven-repo\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\maven-repo\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\maven-repo\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\maven-repo\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Nykster!\Documents\securitease-backend-assessment\target/allure-results"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nykster!\AppData\Local\Temp\surefire2303227145335997633\surefirebooter1719130144174509607.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nykster!\AppData\Local\Temp\surefire7275999622014262119\surefirebooter15527636128369242579.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.28+6-LTS"/>
@@ -62,7 +62,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testApiResponseConformsToSchema" classname="com.securitease.api.CountriesApiTest" time="6.164"/>
-  <testcase name="testSouthAfricaIncludesSignLanguage" classname="com.securitease.api.CountriesApiTest" time="2.842"/>
-  <testcase name="testTotalNumberOfCountries" classname="com.securitease.api.CountriesApiTest" time="0.402"/>
+  <testcase name="testApiResponseConformsToSchema" classname="com.securitease.api.CountriesApiTest" time="5.781"/>
+  <testcase name="testSouthAfricaIncludesSignLanguage" classname="com.securitease.api.CountriesApiTest" time="2.728">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path [0].languages.values() doesn't match.
+Expected: a collection containing "South African Sign Language"
+  Actual: <[Afrikaans, English, Southern Ndebele, Northern Sotho, Southern Sotho, Swazi, Tswana, Tsonga, Venda, Xhosa, Zulu]>
+
+	at com.securitease.api.CountriesApiTest.testSouthAfricaIncludesSignLanguage(CountriesApiTest.java:55)
+]]></failure>
+  </testcase>
+  <testcase name="testTotalNumberOfCountries" classname="com.securitease.api.CountriesApiTest" time="0.359"/>
 </testsuite>
